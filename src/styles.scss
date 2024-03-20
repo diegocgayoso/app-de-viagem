@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  ::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #013c3c;        /* color of the tracking area */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 1px solid #0000003d;  /* creates padding around scroll thumb */
+  }
+}
+
+.btn {
+  width: 140px;
+  height: 50px;
+  border-radius: 24px;
+  border: none;
+  background: rgba(2, 89, 89, 0.5);
+  color: #FFF;
+  font-size: 20px;
+}
+
+.overflow-scroll{
+  overflow: scroll;
+}
+
+

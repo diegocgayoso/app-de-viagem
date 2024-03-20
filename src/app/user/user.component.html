@@ -1,0 +1,16 @@
+<form class="user" [formGroup]="userForm">
+  <img class="user-img" src="../../assets/user.png" alt="">
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput type="text" value="Nome Completo" formControlName="name">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input matInput type="email" value="Email@email.com" formControlName="email">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Telefone</mat-label>
+    <input matInput type="phone" value="(xx)xxxxx-xxxx" formControlName="phone">
+  </mat-form-field>
+  <button mat-stroked-button (click)="editUser()" type="button" >Editar</button>
+</form>
